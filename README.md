@@ -5,6 +5,3 @@ In this project, I have used SMS Spam data and developed the Naïve Baye’s cla
 ## In R:
 It classifies the data by constructing tables of probabilities. The probabilities are calculated using Bayes' theorem, which defines how dependent events are associated. Although Bayes' theorem can be computationally expensive we can use the simple version which is the naive version which is used for making assumptions. But we observed that the naive Bayes is more effective when we try to classify text documents.
 
-## In Python:
-It was observed that in Naïve Bayes the classification accuracy was quite good but it is not feasible to use this algorithm other than text data because the accuracy can be low and it won’t be able to classify it accurately.
-Every pair of features is classified as independent. In Naive Bayes, the dataset is divided into feature matrix and response vectors. The fundamental assumption of Naive Bayes is that each feature makes an equal and independent contribution to the outcome.
